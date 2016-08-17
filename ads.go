@@ -20,6 +20,8 @@ type IURL struct {
 }
 
 type ADS struct {
+	//广告位id
+	SpaceId int `json:"space_id"`
 	//千次展现金额，计划的最高竞标价格, 单位为分
 	Price int `json:"price"`
 
